@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: repeating-linear-gradient(
+    -45deg,
+    rgb(87, 1, 1),
+    rgb(73, 2, 2) 5px,
+    rgb(1, 1, 77) 5px,
+    rgb(2, 2, 77) 10px
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main {
+  width: 93%;
+  margin: 0 auto;
+  background: linear-gradient(to bottom right, rgb(11, 10, 24), rgb(54, 4, 12));
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+p {
+  padding: 5px;
+  font-weight: 500;
+  color: rgb(201, 199, 199);
+  border-collapse: collapse;
+  text-align: left;
+  padding-top: 18px;
+}
+div {
+  text-align: left;
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  font-weight: 400;
+  color: white;
+}
+.headrow {
+  font-family: "Staatliches", cursive;
+  font-size: 25px;
+  border-top: 1px solid gray;
+}
+/* .headrow {
+  pointer-events: none;
+} */
+
+h1 {
+  color: white;
+  width: 300px;
+  flex: 1 0 60%;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: -50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+}
+.row:hover {
+  background-color: rgb(48, 47, 47);
+}
+
+.row > * {
+  flex: 1;
+}
+
+.cover {
+  width: auto;
+  flex: 0 0 60px;
+}
+
+.headrow > * {
+  color: gray;
+  opacity: 0.9;
+  padding: 10px 10px 10px 0px;
+}
+.headrow div:first-child {
+  flex: 0 0 60px;
+}
+.headrow div:nth-child(5) {
+  flex: 0 0 100px;
+}
+.tracks {
+  width: 93%;
+  margin: auto;
+}
+.headrow > * {
+  flex: 1;
+}
+/* HTML */
+header {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* searchbar */
+input {
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+/* sorting */
+select {
+  border-radius: 5px;
+}
+
+/* buttons */
+.playbutton {
+  font-size: 30px;
+  opacity: 0.7;
+  flex: 0 0 100px;
+  margin-top: -6px;
+}
+
+.tracks,
+.main {
+  border-bottom: none;
+}
+
+/*ANGLES*/
+.angles {
+  width: 30px;
+  padding-left: 5px;
+  display: inline;
+  color: gray;
+}
+.fa-sort {
+  font-size: 22px;
+}

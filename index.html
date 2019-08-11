@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sound of silence</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Major+Mono+Display"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Staatliches"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header>
+        <input
+          type="text"
+          name="filter"
+          placeholder=" &#x1F50E; search"
+        /><br />
+        <input
+          class="request"
+          type="text"
+          name="filter"
+          placeholder=" &#x1F50E; global search"
+        /><br />
+        <select>
+          <option value="empty">Sort by</option>
+          <option value="cheapest">Price: lowest first</option>
+          <option value="expensive">Price: highest first</option>
+          <option value="artist">Artist A-Z</option>
+          <option value="reverse">Artist Z-A</option>
+          <option value="songs">Songs A-Z</option>
+          <option value="songsrev">Songs Z-A</option>
+        </select>
+      </header>
+      <div class="tracks"></div>
+      <section id="play"></section>
+    </div>
+    <!-- <script src="./assets/music.js"></script> -->
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
