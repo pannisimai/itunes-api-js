@@ -1,8 +1,5 @@
-# The Sound of Classes
+# Itunes API Javascript application
 
-You have a base class that is missing a template.
-Try to fix the class first then add following features:
+Demo: https://fbw-12.github.io/16-the-sounds-of-classes-pannisimai/
 
-- create a sortPricing methode
-- create a dropdown
-  - with at least 5 filter and/or sorting features
+![image](/home/deci-pc-ubuntu54/Pictures/Screenshot from 2019-08-16 15-10-48.png)
